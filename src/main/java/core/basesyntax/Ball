@@ -28,7 +28,7 @@ public class Ball {
         this.ballNumber = ballNumber;
     }
 
-    public String toString() {
+    public String toString() {  //ToDo add @Override annotation when override parent methods
         String ball = "ball";   //ToDo delete variables that never used
         return "Ball with number: " + ballNumber + " and color: " + ballColor;
     }
