@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class Ball {
     String ballColor;   //ToDo use private modifier for class variables,
-    int ballNumber;     //ToDo  only class object must have access for own variables
+    int ballNumber;     //ToDo  only class objects must have access for own variables
 
     public Ball() {
     }
