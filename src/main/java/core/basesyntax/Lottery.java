@@ -9,8 +9,8 @@ public class Lottery extends ColorSupplier {    //ToDo keyword "extends" uses wh
 //ToDo this empty line is redundant
         ball.setBallColor(ColorSupplier.getRandomColor());  //ToDo with keyword "extends" we can use parent class methods without parent class name
 //ToDo this empty line is redundant
-        ball.setBallNumber(new Random().nextInt(100));  //ToDo this Random doesnt match this task (bound start from "0"), add constant variable for
+        ball.setBallNumber(new Random().nextInt(100));  //ToDo this Random doesnt match this task (bound start from "0"), add constant variable for magic number
 //ToDo this empty line is redundant
-        return ball;    //ToDo we can create Ball object directly
+        return ball;    //ToDo we can create Ball object directly with constructor
     }
 }
